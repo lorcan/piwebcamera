@@ -9,6 +9,10 @@
     <button type="submit">Capture</button>
   </form>
 
+  <form action="/video/" method="post">
+    <button type="submit">Video</button>
+  </form>
+
   <ul>
     {% for photo in photos %}
       <li>
@@ -16,5 +20,14 @@
       </li>
     {% endfor %}
   </ul>
+
+  <ul>
+    {% for video in videos %}
+      <li>
+        <video width="400" src="/static/{{ video }}">
+      </li>
+    {% endfor %}
+  </ul>
+
 {% endblock %}
 

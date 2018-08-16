@@ -1,3 +1,5 @@
 *.py[cod]
 instance/
-project/static/photos/*.png
+project/static/photos/*.jpg
+project/static/videos/*.mjpeg
+
